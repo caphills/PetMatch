@@ -82,6 +82,7 @@ label {
   margin-top: 30px;
 }
 
+
 /*footer styling*/
 /*https://stackoverflow.com/questions/32152442/semantic-ui-footer-at-the-end*/
 @media (min-height: 320px) {
@@ -106,4 +107,10 @@ label {
 /* Pet details in the liked pets list */
 .liked-pet-details, .pet-match-results {
   font-size: 18px !important;
+}
+/* sticky footer positioning */
+.ui.segment {
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
 }
