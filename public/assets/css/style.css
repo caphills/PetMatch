@@ -93,6 +93,10 @@ label {
   }
 }
 
+.app-footer {
+  color:red;
+}
+
 /*Liked pets list on saved pets page.*/
 .liked-pets-list {
   margin-top: 30px;
@@ -106,4 +110,10 @@ label {
 /* Pet details in the liked pets list */
 .liked-pet-details, .pet-match-results {
   font-size: 18px !important;
+}
+
+.ui.segment {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
